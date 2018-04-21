@@ -1,0 +1,119 @@
+/* Global */
+
+body {
+  font-family: 'Itim', cursive;
+  background-image: url('vintage-concrete.png');
+  color: white;
+}
+
+/* Heading */
+
+header {
+  text-align: center;
+  border: 5px solid;
+  border-color: black;
+  background-color: #36120B;
+}
+
+h1 {
+  font-family: 'Itim', cursive;
+  font-size: 60px;
+  color: white;
+}
+
+/* Main text */
+
+img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #C53A2C;
+}
+
+h2 {
+  font-family: 'Itim', cursive;
+  font-size: 30px;
+}
+
+#maintext {
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background-color: #C53A2C;
+}
+
+#history, #facts, #links {
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background-color: #36120B;
+}
+
+/* 'learn more!' button */
+.learnMore-button {
+  display: block;
+  margin: 1% 82% 1% 1%;
+  padding: 10px;
+  color: #36120B;
+  background-color: #FFEFA9;
+}
+
+/* 'learn more!'' button toggle */
+.active {
+  font-weight: bold;
+  color: #36120B;
+  background-color: #C53A2C;
+}
+
+ul, ol {
+  line-height: 2;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/* links */
+
+.stores {
+  padding-left: 6px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: #C53A2C;
+}
+
+a:active {
+  color: green;
+}
+
+/* Footer */
+
+footer {
+  font-family: 'Itim', cursive;
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #36120B;
+  border: 5px solid;
+  border-color: black;
+
+}
